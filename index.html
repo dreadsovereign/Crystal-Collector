@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+  <title>Crystal Collector</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="title">CRYSTAL COLLECTOR</div>
+  <div class="main-content">
+     <div class="description"> 
+      <ul>
+        <li>You will be given a random number at the start of the game.</li><br>
+        <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li><br>
+        <li>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</li><br>
+        <li>The value of each cystal is hidden from you until you click on it.</li><br>
+        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+      </ul>
+     </div> 
+  </div>
+    <div class="buttons-score">
+      <div class="random-number"></div>
+      <div class="wins-losses">
+        <div class="wins">WINS: 0</div>
+          <span class="wins-total"></span><br>
+        <div class="losses">LOSSES: 0</div>
+          <span class="losses-total"></span>
+      </div>
+      <div class="diamond"><img src="assets/images/icons8-Diamond-96.png"></div>
+      <div class="emerald"><img src="assets/images/icons8-Emerald-96.png"></div>
+      <div class="ruby"><img src="assets/images/icons8-Ruby-96.png"></div>
+      <div class="topaz"><img src="assets/images/icons8-Topaz-96.png"></div>
+    </div>
+    <div class="score-numval">
+      <div class="score">SCORE: </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
