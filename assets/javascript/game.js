@@ -41,7 +41,7 @@ var config = function (){
     reset();
 }
   else if(math > number){
-    losses = losses + 1;
+    losses++;
     reset();
 }
   else{
