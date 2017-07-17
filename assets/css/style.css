@@ -83,7 +83,7 @@ body {
   height: 94px;
   background-color: rebeccapurple;
   color: darkgray;
-  border: 1px solid black;
+  border: 1px solid darkgray;
   font-size: 60px;
   display: flex;
   justify-content: center;

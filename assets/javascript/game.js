@@ -37,7 +37,7 @@ var reset = function(){
 
 var config = function (){
   if (math == number) {
-    wins = wins + 1;
+    wins++;
     reset();
 }
   else if(math > number){
@@ -54,22 +54,22 @@ var config = function (){
   $(document).ready(function(){
   
   $(".diamond").click(function(){
-    math = math + diamond;
+    math += diamond;
     config();
   })
   
   $(".emerald").click(function(){
-    math  = math  + emerald;
+    math += emerald;
     config();
   })
   
   $(".ruby").click(function(){
-    math  = math  + ruby;
+    math += ruby;
     config();
   })
   
   $(".topaz").click(function(){
-    math  = math  + topaz;
+    math += topaz;
     config();
   })
 
